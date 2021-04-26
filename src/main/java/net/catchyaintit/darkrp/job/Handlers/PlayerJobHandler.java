@@ -1,9 +1,8 @@
-package net.fabricmc.example.Job.Handlers;
+package net.catchyaintit.darkrp.job.Handlers;
 
-import net.fabricmc.example.Job.JobBase;
+import net.catchyaintit.darkrp.job.JobBase;
 
 import java.util.HashMap;
-import java.util.LinkedList;
 import java.util.UUID;
 
 public class PlayerJobHandler {

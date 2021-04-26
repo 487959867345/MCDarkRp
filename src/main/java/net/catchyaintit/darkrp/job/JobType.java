@@ -1,4 +1,4 @@
-package net.fabricmc.example.Job;
+package net.catchyaintit.darkrp.job;
 
 public enum JobType {
     GOVERNMENT,

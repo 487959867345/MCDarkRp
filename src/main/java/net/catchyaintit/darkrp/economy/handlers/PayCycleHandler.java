@@ -1,7 +1,7 @@
-package net.fabricmc.example.Economey.Handlers;
+package net.catchyaintit.darkrp.economy.handlers;
 
-import net.fabricmc.example.Job.Handlers.PlayerJobHandler;
-import net.fabricmc.example.net.packet.S2C.PayPacket;
+import net.catchyaintit.darkrp.job.Handlers.PlayerJobHandler;
+import net.catchyaintit.darkrp.net.packet.s2c.PayPacket;
 import net.fabricmc.fabric.api.networking.v1.PacketByteBufs;
 import net.fabricmc.fabric.api.networking.v1.ServerPlayNetworking;
 import net.minecraft.network.PacketByteBuf;
@@ -9,7 +9,6 @@ import net.minecraft.server.MinecraftServer;
 import net.minecraft.server.network.ServerPlayerEntity;
 import net.minecraft.text.LiteralText;
 import net.minecraft.util.Formatting;
-import net.minecraft.util.Identifier;
 
 public class PayCycleHandler {
 

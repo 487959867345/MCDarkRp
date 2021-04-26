@@ -19,13 +19,13 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.DarkRp"
+      "net.catchyaintit.darkrp.DarkRp"
     ],
     "client": [
-      "net.fabricmc.example.Client.DarkRpClient"
+      "net.catchyaintit.darkrp.Client.DarkRpClient"
     ],
     "server": [
-      "net.fabricmc.example.DarkRpServer"
+      "net.catchyaintit.darkrp.DarkRpServer"
     ]
   },
   "mixins": [

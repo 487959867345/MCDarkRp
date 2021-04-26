@@ -1,4 +1,4 @@
-package net.fabricmc.example.Economey.Handlers;
+package net.catchyaintit.darkrp.economy.handlers;
 
 import java.util.HashMap;
 import java.util.UUID;
@@ -17,4 +17,5 @@ public class MoneyHandler {
     public static Integer getBalance(UUID uuid) {
         return moneyMap.get(uuid);
     }
+
 }

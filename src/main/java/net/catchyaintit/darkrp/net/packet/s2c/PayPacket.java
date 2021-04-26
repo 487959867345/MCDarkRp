@@ -1,4 +1,4 @@
-package net.fabricmc.example.net.packet.S2C;
+package net.catchyaintit.darkrp.net.packet.s2c;
 
 import net.minecraft.util.Identifier;
 

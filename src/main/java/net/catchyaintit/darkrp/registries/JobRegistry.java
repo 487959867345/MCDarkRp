@@ -1,11 +1,9 @@
-package net.fabricmc.example.Registries;
+package net.catchyaintit.darkrp.registries;
 
-import net.fabricmc.example.Job.JobBase;
-import net.fabricmc.example.Job.JobType;
-import net.minecraft.util.registry.Registry;
+import net.catchyaintit.darkrp.job.JobBase;
+import net.catchyaintit.darkrp.job.JobType;
 
 import java.util.HashMap;
-import java.util.LinkedList;
 import java.util.Map;
 
 public class JobRegistry {
@@ -16,6 +14,7 @@ public class JobRegistry {
             throw new Exception("Existing Job Error" + id);
         }else {
             jobMap.put(id, job);
+            job.setId(id);
         }
     }
 
