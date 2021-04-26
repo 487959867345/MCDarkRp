@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "darkrp",
   "version": "${version}",
 
   "name": "Example Mod",
@@ -19,7 +19,13 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "net.fabricmc.example.DarkRp"
+    ],
+    "client": [
+      "net.fabricmc.example.Client.DarkRpClient"
+    ],
+    "server": [
+      "net.fabricmc.example.DarkRpServer"
     ]
   },
   "mixins": [
